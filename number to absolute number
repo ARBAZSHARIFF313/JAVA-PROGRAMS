@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int number = 565150;
+        int absolutevalue= absolutenum(number);
+        System.out.println("the absolute number:"+absolutevalue);
+    }
+    public static int absolutenum(int number){
+        if(number < 0){
+            return -number;
+        }
+        else {
+            return number;
+        }
+    }
+}
